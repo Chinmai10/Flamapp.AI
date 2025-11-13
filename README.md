@@ -21,9 +21,9 @@ This is a time-bound technical assessment to evaluate practical skills in Androi
 
 ##  Screenshots / GIF
 
-*(TODO: Add a screenshot or GIF of the working Android application here.)*
+image.png
 
-<img src="demo.svg" alt="App Demo" width="250"/>
+<img src="image.png" alt="App Demo" width="250"/>
 
 ##  Setup Instructions
 
