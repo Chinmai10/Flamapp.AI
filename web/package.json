@@ -1,0 +1,17 @@
+{
+  "name": "flamapp-web-viewer",
+  "version": "1.0.0",
+  "description": "A simple web viewer for the Flamapp project.",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5",
+    "lite-server": "^2.6.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
