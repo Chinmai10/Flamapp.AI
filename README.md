@@ -2,7 +2,7 @@
 
 This is a time-bound technical assessment to evaluate practical skills in Android development, OpenCV (C++), OpenGL ES, JNI (NDK), and TypeScript (Web). The focus is on integration and rendering.
 
-## ✅ Features Implemented
+## Features Implemented
 
 ### Android App
 - **Camera Integration**: Uses `CameraX` for efficient camera stream capture.
@@ -19,13 +19,13 @@ This is a time-bound technical assessment to evaluate practical skills in Androi
 - **Frame Statistics**: Includes a section to display mock statistics like resolution and FPS.
 - **Simple & Clean UI**: A clean, centered layout to present the viewer.
 
-## 📷 Screenshots / GIF
+##  Screenshots / GIF
 
 *(TODO: Add a screenshot or GIF of the working Android application here.)*
 
-<img src="placeholder.gif" alt="App Demo" width="250"/>
+<img src="demo.svg" alt="App Demo" width="250"/>
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### Prerequisites
 1.  **Android Studio**: Make sure you have a recent version of Android Studio installed.
@@ -77,7 +77,7 @@ This is a time-bound technical assessment to evaluate practical skills in Androi
     ```
 5.  Open your browser and navigate to `http://localhost:3000`.
 
-## 🧠 Architecture Explanation
+##  Architecture Explanation
 
 ### Frame Flow (Android)
 1.  **`CameraHandler.java`**: Uses the CameraX `ImageAnalysis` use case to get frames from the camera as `ImageProxy` objects on a background thread.
