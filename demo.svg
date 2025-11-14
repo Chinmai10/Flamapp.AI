@@ -1,0 +1,52 @@
+<svg width="270" height="540" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .noise {
+      animation: flicker 3s linear infinite;
+    }
+    @keyframes flicker {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 0.7; }
+    }
+  </style>
+  <!-- Phone Body -->
+  <rect x="10" y="10" width="250" height="520" rx="35" ry="35" fill="#1C1C1E" />
+  
+  <!-- Screen -->
+  <rect x="25" y="25" width="220" height="490" fill="#000000" />
+
+  <!-- Animated Noise Layer -->
+  <g class="noise" stroke="#00FF41" stroke-width="0.5" fill="none">
+    <path d="M 30 100 L 240 120 M 30 150 L 240 140 M 30 200 L 240 190 M 30 250 L 240 260 M 30 300 L 240 290 M 30 350 L 240 360 M 30 400 L 240 390" />
+  </g>
+
+  <!-- Edge Detected Car -->
+  <g stroke="#00FF41" stroke-width="1.2" fill="none">
+    <!-- Car Body Outline -->
+    <path d="M 40 350 C 40 320, 60 310, 90 310 L 180 310 C 210 310, 230 320, 230 350" />
+    <path d="M 40 350 L 45 380 C 50 395, 60 400, 75 400 L 205 400 C 220 400, 225 395, 230 380 L 235 350" />
+    
+    <!-- Roof and Windows -->
+    <path d="M 90 310 L 110 250 C 115 240, 125 235, 140 235 L 160 235 C 175 235, 180 240, 185 250 L 200 310" />
+    <line x1="145" y1="235" x2="145" y2="310" />
+    <line x1="115" y1="255" x2="195" y2="255" />
+
+    <!-- Wheels -->
+    <circle cx="85" cy="380" r="25" />
+    <circle cx="85" cy="380" r="10" stroke-width="2"/>
+    <circle cx="195" cy="380" r="25" />
+    <circle cx="195" cy="380" r="10" stroke-width="2"/>
+
+    <!-- Headlights -->
+    <ellipse cx="60" cy="340" rx="15" ry="8" />
+    <ellipse cx="220" cy="340" rx="15" ry="8" />
+
+    <!-- Grill -->
+    <path d="M 120 340 L 160 340 M 120 345 L 160 345 M 120 350 L 160 350" />
+  </g>
+  
+  <!-- UI Elements -->
+  <g fill="#00FF41" font-family="monospace" font-size="14">
+      <text x="40" y="55">FPS: 29.6</text>
+      <text x="170" y="55">1920x1080</text>
+  </g>
+</svg>
