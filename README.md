@@ -21,9 +21,12 @@ This is a time-bound technical assessment to evaluate practical skills in Androi
 
 ##  Screenshots / GIF
 
-image.png
 
-<img src="image.png" alt="App Demo" width="250"/>
+
+
+<img src="demo.svg" alt="App Demo" width="250"/>
+
+
 
 
 
